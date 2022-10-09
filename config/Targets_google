@@ -1,0 +1,35 @@
+#
+## Targets_google
+#
+
++ google
+probe = FPing
+menu = google IPv4
+title = Servidores com google. Executa o comando ping para os IPs abaixo:
+
+ 
+++ DNSPings
+menu = IPv4 (pings) (compilado)
+title = google IPv4  (compilado)
+host = /google/google-IPv4/IP_1 \
+       /google/google-IPv4/IP_2 \
+       /google/google-IPv4/IP_3 \
+       /google/google-IPv4/IP_4 \
+       /google/google-IPv4/IP_5 \
+       /google/google-IPv4/IP_6 \
+       /google/google-IPv4/IP_7 \
+       /google/google-IPv4/IP_8 \
+
+       
+ 
+## google
+++ google-IPv4
+menu = IPv4 (pings) (detalhado)
+title = google IPv4 (pings) (detalhado)
+
+
++++ IP_1
+menu =  Youtybe
+title =  Youube
+host = youtube.com
+

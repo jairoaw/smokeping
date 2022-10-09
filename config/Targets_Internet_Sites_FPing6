@@ -1,0 +1,82 @@
+#
+## Internet Sites-FPing
+#
++ InternetSitesv6
+probe = FPing6
+menu = InternetSitesv6-FPing6
+title = Sites da internet em IPv6. Executa o comando ping para os domínios abaixo:
+
+++ Sites
+menu = Todos sites (compilado)
+title = Todos sites (compilado)
+host = /InternetSitesv6/InternetSitesv6-IPv6/GoogleBR \
+       /InternetSitesv6/InternetSitesv6-IPv6/TwitterBR \
+       /InternetSitesv6/InternetSitesv6-IPv6/G1 \
+       /InternetSitesv6/InternetSitesv6-IPv6/terra \
+       /InternetSitesv6/InternetSitesv6-IPv6/nytimes \
+       /InternetSitesv6/InternetSitesv6-IPv6/meo \
+       /InternetSitesv6/InternetSitesv6-IPv6/cloudflare \
+       /InternetSitesv6/InternetSitesv6-IPv6/uol \
+       /InternetSitesv6/InternetSitesv6-IPv6/yahoo \
+       /InternetSitesv6/InternetSitesv6-IPv6/facebook \
+
+       
+ 
+## InternetSitesv6
+ 
+++ InternetSitesv6-IPv6
+menu = Todos sites (detalhado)
+title = Todos sites (detalhado)
+
++++ GoogleBR
+menu = google.com.br
+title = google.com.br
+host = google.com.br
+
++++ TwitterBR
+menu = twitter.com
+title = twitter.com
+host = twitter.com
+
++++ G1
+menu = g1.com.br
+title = g1.com.br
+host = g1.com.br
+
++++ terra
+menu = terra.com.br
+title = terra.com.br
+host = terra.com.br
+
++++ nytimes
+menu = nytimes.com
+title = nytimes.com
+host = nytimes.com
+
++++ meo
+menu = meo.pt
+title = meo.pt
+host = meo.pt
+
++++ cloudflare 
+menu = cloudflare.com
+title = cloudflare.com
+host = cloudflare.com
+
++++ uol
+menu = uol.com.br
+title = uol.com.br
+host = uol.com.br
+
++++ yahoo
+menu = br.yahoo.com
+title = br.yahoo.com
+host = br.yahoo.com
+
++++ facebook
+menu = facebook.com
+title = facebook.com
+host = facebook.com
+
+
+

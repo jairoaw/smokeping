@@ -1,0 +1,65 @@
+
++ IPs_ntp_v6
+probe = FPing6
+menu = ntp_IPv6
+title = IPs do NTP
+ 
+++ IPs-IPv6
+menu = NTP IPv6 (compilado)
+title = NTP IPv6 (compilado)
+
+host =/IPs_ntp_v6/IPs_ntp_IPv6/IP_1 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_2 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_3 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_4 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_5 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_6 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_7 \
+      /IPs_ntp_v6/IPs_ntp_IPv6/IP_8 \
+       
+       
+## IPv6
+ 
+++ IPs_ntp_IPv6
+menu = NTP IPv6 (detalhado)
+title = IPs do NTP IPv6. Executa um fping6 para os IPs abaixo.
+ 
++++ IP_1
+menu = ntp
+title = pool.ntp.org
+host = pool.ntp.org
+ 
++++ IP_2
+menu = ntp_a
+title = a.ntp.br
+host = a.ntp.br
+
++++ IP_3
+menu = ntp_b
+title = b.ntp.br
+host = b.ntp.br
+
++++ IP_4
+menu = ntp_c
+title = c.ntp.br
+host = c.ntp.br
+
++++ IP_5
+menu = a.st1.ntp.br
+title = a.st1.ntp.br
+host = a.st1.ntp.br
+
++++ IP_6
+menu = b.st1.ntp.br
+title = b.st1.ntp.br
+host = b.st1.ntp.br
+
++++ IP_7
+menu = c.st1.ntp.br
+title = c.st1.ntp.br
+host = c.st1.ntp.br
+
++++ IP_8
+menu = d.st1.ntp.br
+title = c.st1.ntp.br
+host = c.st1.ntp.br

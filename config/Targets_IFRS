@@ -1,0 +1,119 @@
+#
+## Targets_IFRS
+#
+
++ IFRS
+menu = [curl] IFRS
+title =  Executa o comando curl para os domínios abaixo:
+
+ 
+++ site_sifrs
+menu = IFRS-sistemas (curl) (compilado)
+title = IFRS-sistemas (curl) (compilado)
+host = /IFRS/IFRS-sistemas/IFRS-SIG \
+       /IFRS/IFRS-sistemas/IFRS-DadosAbertos \
+       /IFRS/IFRS-sistemas/IFRS-Biblioteca \
+       /IFRS/IFRS-sistemas/IFRS-Moodle \
+       /IFRS/IFRS-sistemas/IFRS-portal \
+              
+        
+## IFRS
+
+++ IFRS-sistemas
+probe = Curl
+menu = IFRS-sistemas (curl) (detalhado)
+title = IFRS-sistemas (curl) (detalhado)
+
++++ IFRS-SIG
+menu = sig.ifrs.edu.br
+title = Latência HTTP para sig.ifrs.edu.br
+host = sig.ifrs.edu.br
+urlformat = https://sig.ifrs.edu.br
+
++++ IFRS-DadosAbertos
+menu = dados.ifrs.edu.br
+title = Latência HTTP para dados.ifrs.edu.br
+host = dados.ifrs.edu.br
+urlformat = https://dados.ifrs.edu.br
+
++++ IFRS-Biblioteca
+menu = IFRS-Biblioteca
+title = Latência HTTP para biblioteca.ifrs.edu.br (nuvem)
+host = biblioteca.ifrs.edu.br
+urlformat = https://biblioteca.ifrs.edu.br
+
++++ IFRS-Moodle
+menu = IFRS-Moodle
+title = Latência HTTP para moodle.ifrs.edu.br
+host = moodle.ifrs.edu.br
+urlformat = https://moodle.ifrs.edu.br
+
++++ IFRS-portal
+menu = IFRS-portal
+title = Latência HTTP para ifrs.edu.br
+host = ifrs.edu.br
+urlformat = https://ifrs.edu.br
+
+
++ IFRS_PING
+menu = [FPing] IFRS
+title = Executa o comando ping para os IPs abaixo:
+ 
+++ IFRSping
+menu = IFRS-ping (compilado)
+title = IFRS-ping  (compilado)
+host = /IFRS_PING/IFRS-ping/Router \
+       /IFRS_PING/IFRS-ping/Firewall \
+       /IFRS_PING/IFRS-ping/eduroam \
+       /IFRS_PING/IFRS-ping/DNS_A_IFRS-v4 \
+       /IFRS_PING/IFRS-ping/DNS_B_IFRS-v4 \
+       /IFRS_PING/IFRS-ping/NAS_01-IPv4\
+       /IFRS_PING/IFRS-ping/VPN_93 \
+       /IFRS_PING/IFRS-ping/nb2_ifrs \
+       
+## IFRS-ping
+
+++ IFRS-ping
+probe = FPing
+menu = IFRS-ping (detalhado)
+title = pings 
+
++++ Router
+menu = router
+title = ping para Router gateway 200.17.95.254
+host = 200.17.95.254
+
++++ Firewall
+menu = firewall
+title = ping para firewall 200.17.95.1
+host = 200.17.95.1
+
++++ eduroam
+menu = eduroam
+title = eduroam - 200.17.92.22
+host = 200.17.92.22
+ 
++++ DNS_A_IFRS-v4
+menu = DNS_A_IFRS-v4
+title = DNS_A_IFRS-v4 - 200.17.92.7
+host = 200.17.92.7
+ 
++++ DNS_B_IFRS-v4
+menu = DNS_B_IFRS-v4
+title = DNS_B_IFRS-v4 - 200.17.92.5
+host = 200.17.92.5
+ 
++++ NAS_01-IPv4
+menu = NAS_01-IPv4
+title = NAS_01-IPv4 - 200.17.92.121
+host = 200.17.92.121
+ 
++++ VPN_93
+menu = VPN_93
+title = VPN_93 - 200.17.93.9
+host = 200.17.93.9
+ 
++++ nb2_ifrs
+menu = nb2_ifrs
+title = nb2_ifrs - nb2.ifrs.edu.br
+host = nb2.ifrs.edu.br

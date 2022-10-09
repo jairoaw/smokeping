@@ -1,0 +1,94 @@
+#
+## Outros IPs 
+#
+ 
++ IPs_outros
+menu = [Fping] Outros IPs
+title = IPs de servidores e provedores
+ 
+++ IPs-IPv4
+menu = Todos IPs-IPv4 (compilado)
+title = Todos IPs-IPv4
+
+host = /IPs_outros/IPs_outros_IPv4/NETFAR \
+       /IPs_outros/IPs_outros_IPv4/FBNET2 \
+       /IPs_outros/IPs_outros_IPv4/FBNETVA \
+       /IPs_outros/IPs_outros_IPv4/Italnet \
+       /IPs_outros/IPs_outros_IPv4/Viasul \
+       /IPs_outros/IPs_outros_IPv4/rj-ix \
+       /IPs_outros/IPs_outros_IPv4/rs-ix \
+       /IPs_outros/IPs_outros_IPv4/edgeuno_poa \
+       /IPs_outros/IPs_outros_IPv4/edgeuno_for1 \
+       /IPs_outros/IPs_outros_IPv4/edgeuno_sao1 \
+       /IPs_outros/IPs_outros_IPv4/edgeuno_eze1 \
+       /IPs_outros/IPs_outros_IPv4/edgeuno_mia \
+       
+       
+ ## IPv4
+ 
+++ IPs_outros_IPv4
+menu = Todos IPs-IPv4 (detalhado)
+title = IPs de servidores e provedores IPv4. Executa um ping para os IPs abaixo.
+ 
+
++++ NETFAR
+menu = NETFAR
+title = NETFAR - 138.36.82.142
+host = 138.36.82.142
+ 
++++ FBNETVA
+menu = FBNET-VA
+title = FBNET - 177.8.58.68
+host = 177.8.58.68
+
++++ FBNET2
+menu = FBNET2
+title = FBNET2 - server.fbnet.com.br
+host = server.fbnet.com.br
+ 
++++ Italnet
+menu = Italnet
+title = Italnet - speed.italnet.com.br
+host = speed.italnet.com.br
+ 
++++ Viasul
+menu = Viasul
+title = Viasul - speedtest.viasul.net.br
+host = speedtest.viasul.net.br
+ 
++++ rj-ix
+menu = rj-ix
+title = RJ | rj-ix-p1-ipv4.simet.nic.br
+host = rj-ix-p1-ipv4.simet.nic.br
+
++++ rs-ix
+menu = rs-ix
+title = RS | rs-ix-p1-ipv4.simet.nic.br
+host = rs-ix-p1-ipv4.simet.nic.br
+
+
++++ edgeuno_poa
+menu = edgeuno_poa
+title = spt-poa1.edgeuno.com | Porto Alegre
+host = spt-poa1.edgeuno.com
+
++++ edgeuno_for1
+menu = edgeuno_fortaleza
+title = spt-for1.edgeuno.com | Fortaleza
+host = spt-for1.edgeuno.com
+
++++ edgeuno_eze1
+menu = edgeuno_eze
+title = spt-eze1.edgeuno.com | Buenos Aires
+host = spt-eze1.edgeuno.com
+
++++ edgeuno_sao1
+menu = edgeuno_sao1
+title = spt-sao1.edgeuno.com | São Paulo
+host = spt-sao1.edgeuno.com
+
++++ edgeuno_mia
+menu = edgeuno_miami
+title = spt-mia.edgeuno.com | Miami
+host = spt-mia.edgeuno.com
+

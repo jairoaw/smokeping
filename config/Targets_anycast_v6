@@ -1,0 +1,58 @@
+#
+## Targets_anycast
+#
+
++ ANYCASTv6
+
+menu = ANYCAST IPv6
+title = Servidores com ANYCAST em IPv6. Executa o comando fping6 para os IPs abaixo:
+probe = FPing6
+ 
+++ DNSPings
+menu = ANYCAST IPv6 (compilado)
+title = ANYCAST IPv6 pings  (compilado)
+host = /ANYCASTv6/ANYCASTv6-IPv6/IP_1 \
+       /ANYCASTv6/ANYCASTv6-IPv6/IP_4 \
+       /ANYCASTv6/ANYCASTv6-IPv6/IP_5 \
+       /ANYCASTv6/ANYCASTv6-IPv6/IP_6 \
+       /ANYCASTv6/ANYCASTv6-IPv6/IP_7 \
+       /ANYCASTv6/ANYCASTv6-IPv6/IP_8 \
+
+       
+ 
+## ANYCASTv6
+
+++ ANYCASTv6-IPv6
+menu = ANYCAST IPv6 (detalhado)
+title = ANYCAST IPv6 (pings) (detalhado)
+
+
++++ IP_1
+menu =  Akamai AS20940
+title =  Akamai (AS20940 www.akamai.com)
+host = www.akamai.com
+
++++ IP_4
+menu =  CDN77 AS60068
+title =  CDN77 (AS60068 www.cdn77.com)
+host = www.cdn77.com
+
++++ IP_5
+menu =  Fastly AS54113
+title =  Fastly (AS54113 www.fastly.com)
+host = www.fastly.com
+
++++ IP_6
+menu =  Google DRIVE AS15169
+title =  Google DRIVE (AS15169 drive.google.com)
+host = drive.google.com
+
++++ IP_7
+menu =  Incapsula AS19551
+title =  Incapsula from Imperva (AS19551 www.incapsula.com)
+host = www.incapsula.com
+
++++ IP_8
+menu =  Microsoft Azure AS8075
+title =  Microsoft Azure (AS8075 azure.microsoft.com)
+host = azure.microsoft.com

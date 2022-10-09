@@ -1,0 +1,126 @@
+#
+## Roots Servers 
+#
+
++ DNS-Root-Servers-v6
+probe = FPing6
+menu = DNS Root Servers-v6
+title = Servidores de DNS Autoritativos Raiz. Executa o comando fping6 para os domínios abaixo:
+ 
+++ Roots-IPv4
+menu = Todos Raizes IPv6 (compilado)
+title = Todos Raizes IPv6
+host = /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-A-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-B-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-C-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-D-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-E-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-F-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-H-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-I-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-J-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-L-v4 \
+       /DNS-Root-Servers-v6/DNS-Root-Servers-IPv6/DNS-ROOT-M-v4 \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-A \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-B \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-C \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-D \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-E \
+       /DNS-Root-Servers/DNS-Root-Servers-IPv4/DNS-F \
+ 
+ 
+## Roots IPv6
+ 
+++ DNS-Root-Servers-IPv6
+menu = Todos Raizes IPv6 (detalhado)
+title = Servidores de DNS Autoritativos Raiz IPv6
+ 
++++ DNS-ROOT-A-v4
+menu = DNS-ROOT-A
+title = Servidor DNS ROOT - A - a.root-servers.net
+host = a.root-servers.net
+ 
++++ DNS-ROOT-B-v4
+menu = DNS-ROOT-B
+title = Servidor DNS ROOT - B - b.root-servers.net
+host = b.root-servers.net
+ 
++++ DNS-ROOT-C-v4
+menu = DNS-ROOT-C
+title = Servidor DNS ROOT - C - c.root-servers.net
+host = c.root-servers.net
+ 
++++ DNS-ROOT-D-v4
+menu = DNS-ROOT-D
+title = Servidor DNS ROOT - D - d.root-servers.net
+host = d.root-servers.net
+ 
++++ DNS-ROOT-E-v4
+menu = DNS-ROOT-E
+title = Servidor DNS ROOT - E - e.root-servers.net
+host = e.root-servers.net
+ 
++++ DNS-ROOT-F-v4
+menu = DNS-ROOT-F
+title = Servidor DNS ROOT - F - f.root-servers.net
+host = f.root-servers.net
+
++++ DNS-ROOT-H-v4
+menu = DNS-ROOT-H
+title = Servidor DNS ROOT - H - h.root-servers.net
+host = h.root-servers.net
+ 
++++ DNS-ROOT-I-v4
+menu = DNS-ROOT-I
+title = Servidor DNS ROOT - I - i.root-servers.net
+host = i.root-servers.net
+ 
++++ DNS-ROOT-J-v4
+menu = DNS-ROOT-J
+title = Servidor DNS ROOT - J - j.root-servers.net
+host = j.root-servers.net
+ 
++++ DNS-ROOT-K-v4
+menu = DNS-ROOT-K
+title = Servidor DNS ROOT - K - k.root-servers.net
+host = k.root-servers.net
+ 
++++ DNS-ROOT-L-v4
+menu = DNS-ROOT-L
+title = Servidor DNS ROOT - L - l.root-servers.net
+host = l.root-servers.net
+ 
++++ DNS-ROOT-M-v4
+menu = DNS-ROOT-M
+title = Servidor DNS ROOT - M - m.root-servers.net
+host = m.root-servers.net
+ 
++++ DNS-A
+menu = DNS-A
+title = a.dns.br
+host = a.dns.br
+
++++ DNS-B
+menu = DNS-B
+title = b.dns.br
+host = b.dns.br
+
++++ DNS-C
+menu = DNS-C
+title = c.dns.br
+host = c.dns.br
+
++++ DNS-D
+menu = DNS-D
+title = d.dns.br
+host = d.dns.br
+
++++ DNS-E
+menu = DNS-E
+title = e.dns.br
+host = e.dns.br
+
++++ DNS-F
+menu = DNS-F
+title = f.dns.br
+host = f.dns.br

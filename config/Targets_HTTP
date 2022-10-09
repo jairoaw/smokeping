@@ -1,0 +1,52 @@
+#
+## Testes de acesso http
+# 
++ HTTP
+menu = [curl] Acesso HTTP
+title = Latências Acesso  HTTP (curl)
+ 
+++ sites
+menu = sites (compilado)
+title = sites (compilado)
+host = /HTTP/sites_internet/curl-github \
+       /HTTP/sites_internet/curl-uol \
+       /HTTP/sites_internet/curl-correiodopovo \
+       /HTTP/sites_internet/curl-facebook \
+       /HTTP/sites_internet/curl-google \
+       /HTTP/sites_internet/curl-g1 \
+        
+
+++ sites_internet
+probe = Curl
+menu = sites (detalhado)
+title = sites (detalhado)
+
++++ curl-github
+menu = github.com
+title = Latência HTTP para github.com
+host = github.com
+
++++ curl-uol
+menu = uol.com.br
+title = Latência HTTP para uol.com.br
+host = uol.com.br
+
++++ curl-correiodopovo
+menu = correiodopovo.com.br
+title = Latência HTTP para correiodopovo.com.br
+host = correiodopovo.com.br
+
++++ curl-facebook
+menu = facebook.com
+title = Latência HTTP para facebook.com
+host = www.facebook.com
+ 
++++ curl-google
+menu = google.com
+title = Latência HTTP para google.com
+host = www.google.com
+
++++ curl-g1
+menu = g1.com
+title = Latência HTTP para G1
+host = www.g1.com

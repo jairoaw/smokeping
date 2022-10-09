@@ -1,0 +1,79 @@
+#
+## vpns 
+#
+ 
++ vpns
+menu = [FPing] VPNs
+title = IPs de VPN
+ 
+
+++ IPs_vpns_fastestvpn
+menu = FastestVPN
+title = Servidores da FastestVPN
+ 
++++ fastestvpn_nl
+menu = fastestvpn_nl
+title = Holanda| nl2.jumptoserver.com
+host = nl2.jumptoserver.com
+
++++ fastestvpn_ca
+menu = fastestvpn_ca
+title = Canada| ca.jumptoserver.com
+host = ca1.jumptoserver.com
+
++++ fastestvpn_br
+menu = fastestvpn_br
+title = Brasil | br.jumptoserver.com
+host = br.jumptoserver.com
+
++++ fastestvpn_br2
+menu = fastestvpn_br2
+title = Brasil | br2.jumptoserver.com
+host = br2.jumptoserver.com
+
++++ fastestvpn_br3
+menu = fastestvpn_br3
+title = Brasil | br3.jumptoserver.com
+host = br3.jumptoserver.com
+
++++ fastestvpn_br4
+menu = fastestvpn_br4
+title = Brasil | br4.jumptoserver.com
+host = br4.jumptoserver.com
+
+##################################################################################################
+++ IPs_vpns_keepsolid
+menu = KeepsolidVPN
+title = Servidores da KeepsolidVPN
+
++++ vpnunlimited_ca
+menu = vpnunlimited_ca
+title = ca-tr.vpnunlimitedapp.com
+host = ca-tr.vpnunlimitedapp.com
+
++++ vpnunlimited_br
+menu = vpnunlimited_br4
+title = br4.vpnunlimitedapp.com
+host = br4.vpnunlimitedapp.com
+
++++ vpnunlimited_nl
+menu = vpnunlimited_nl
+title = nl.vpnunlimitedapp.com
+host = nl.vpnunlimitedapp.com
+
+##################################################################################################
+++ IPs_vpns_nord
+menu = NordVPN
+title = Servidores da Nord VPN
+
++++ nord_br77
+menu = nordvpn_br77
+title = br77.nordvpn.com
+host = br77.nordvpn.com
+
++++ nord_br78
+menu = nordvpn_br78
+title = br78.nordvpn.com
+host = br78.nordvpn.com
+
+

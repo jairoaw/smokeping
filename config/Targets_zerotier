@@ -1,0 +1,56 @@
+#
+## Outros IPs 
+#
+ 
++ IPs_zerotier
+menu = [FPing] Zerotier peers
+title = Zerotier peers
+ 
+++ IPs-IPv4
+menu = Todos IPs-IPv4 (compilado)
+title = Todos IPs-IPv4
+
+host = /IPs_zerotier/IPs_zerotier_IPv4/r4s \
+       /IPs_zerotier/IPs_zerotier_IPv4/pi1 \
+       /IPs_zerotier/IPs_zerotier_IPv4/pi2 \
+       /IPs_zerotier/IPs_zerotier_IPv4/mir3g \
+       /IPs_zerotier/IPs_zerotier_IPv4/oc1 \
+       /IPs_zerotier/IPs_zerotier_IPv4/oc2 \
+       
+       
+ ## IPv4
+ 
+++ IPs_zerotier_IPv4
+menu = Todos IPs-IPv4 (detalhado)
+title = IPs dos peers. Executa um ping para os IPs abaixo.
+ 
+
++++ r4s
+menu = r4s
+title = r4s - 192.168.251.3
+host = 192.168.251.3
+ 
++++ pi1
+menu = pi1
+title = pi1 - 192.168.251.70
+host = 192.168.251.70
+
++++ pi2
+menu = pi2
+title = pi2 - 192.168.251.71
+host = 192.168.251.71
+ 
++++ mir3g
+menu = mir3g
+title = mir3g - 192.168.251.2
+host = 192.168.251.2
+ 
++++ oc1
+menu = oc1.homelabjaw.cf
+title = oc1.homelabjaw.cf - 192.168.251.11
+host = 192.168.251.11
+
++++ oc2
+menu = oc2.homelabjaw.cf
+title = oc2.homelabjaw.cf - 192.168.251.12
+host = 192.168.251.12

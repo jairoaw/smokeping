@@ -1,0 +1,22 @@
+*** Targets ***
+
+probe = FPing      # default probe
+
+menu = Top
+title = Gráficos de Latência da Rede
+remark = Latência de rede medidas a partir de casa (servidor pi1)
+        
+
+@include Targets_Internet_Sites_FPing
+@include Targets_DNS_Servers_FPing
+@include Targets_DIG_DNS
+@include Targets_DNS_ROOT_SERVERS
+@include Targets_Games
+@include Targets_outros_IPs
+@include Targets_HTTP
+@include Targets_IFRS
+@include Targets_rede_claro
+@include Targets_anycast
+@include Targets_ntp
+@include Targets_zerotier
+@include Targets_vpn

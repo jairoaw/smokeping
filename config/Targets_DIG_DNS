@@ -1,0 +1,93 @@
+#
+## DIG DNS PROBES
+#
++ DNS_Servers_dig
+probe = DNS
+menu = [DIG] DNS
+title = DNS Probes (dig). Executa o comando dig para fazer a consulta do domínio google.com nos servidores de DNS abaixo
+ 
+++ DNS_Servers
+menu = DNS Servers (dig) (compilado)
+title = DNS Servers (dig) (compilado)
+host = /DNS_Servers_dig/DNS_Servers_dig-IPv4/Google_DNS1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Google_DNS2 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/OpenDNS1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/OpenDNS2 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Claro_DNS1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Claro_DNS2 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Cloudflare_DNS1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Cloudflare_DNS2 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/GigaDNS_1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/GigaDNS_2 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Italnet_1 \
+       /DNS_Servers_dig/DNS_Servers_dig-IPv4/Italnet_2 \
+
+       
+       
+ 
+## DNS_Servers_dig
+
+++ DNS_Servers_dig-IPv4
+menu = DNS Servers (dig) (detalhado)
+title = DNS Servers (dig) (detalhado)
+
+
++++ Google_DNS1
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
++++ Google_DNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
++++ OpenDNS1
+menu = Open DNS 1
+title = OpenDNS1 208.67.222.222
+host = 208.67.222.222
+
++++ OpenDNS2
+menu = Open DNS 2
+title = OpenDNS2 208.67.220.220
+host = 208.67.220.220
+
++++ Claro_DNS1
+menu = Claro DNS 1
+title = ClaroDNS1 181.213.132.2
+host = 181.213.132.2
+
++++ Claro_DNS2
+menu = Claro DNS 2
+title = ClaroDNS2 181.213.132.3
+host = 181.213.132.3
+
++++ Cloudflare_DNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+
++++ Cloudflare_DNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
+
++++ GigaDNS_1
+menu = Giga DNS 1
+title = GigaDNS_1 189.38.95.95
+host = 189.38.95.95
+
++++ GigaDNS_2
+menu = Giga DNS 2
+title = GigaDNS_2 189.38.95.96
+host = 189.38.95.96
+
++++ Italnet_1
+menu = Italnet DNS 1
+title = Italnet DNS_1 201.7.225.31
+host = 201.7.225.31
+
++++ Italnet_2
+menu = Italnet DNS 2
+title = Italnet DNS_2 201.7.225.32
+host = 201.7.225.32

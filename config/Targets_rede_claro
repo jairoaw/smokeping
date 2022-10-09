@@ -1,0 +1,155 @@
+#
+## Targets_rede_claro
+#
+
++ rede_claro
+#probe = FPing
+menu = [FPing] Claro
+title = rede_claro (pings). Executa o comando ping para os IPs abaixo:
+
+ 
+++ DNSPings
+menu = rede_claro (pings) (compilado)
+title = rede_claro (pings).  (compilado)
+host = /rede_claro/rede_claro-IPv4/IP_1 \
+       /rede_claro/rede_claro-IPv4/IP_2 \
+       /rede_claro/rede_claro-IPv4/IP_3 \
+       /rede_claro/rede_claro-IPv4/IP_4 \
+       /rede_claro/rede_claro-IPv4/IP_6 \
+       /rede_claro/rede_claro-IPv4/IP_7 \
+       /rede_claro/rede_claro-IPv4/IP_8 \
+	/rede_claro/rede_claro-IPv4/IP_9 \
+	/rede_claro/rede_claro-IPv4/IP_10 \
+	/rede_claro/rede_claro-IPv4/IP_11 \
+	/rede_claro/rede_claro-IPv4/IP_12 \
+	/rede_claro/rede_claro-IPv4/IP_13 \
+       /rede_claro/rede_claro-IPv4/IP_14 \
+       /rede_claro/rede_claro-IPv4/IP_15 \
+       /rede_claro/rede_claro-IPv4/IP_16 \
+       /rede_claro/rede_claro-IPv4/IP_17 \
+       /rede_claro/rede_claro-IPv4/IP_18 \
+       /rede_claro/rede_claro-IPv4/IP_19 \
+       /rede_claro/rede_claro-IPv4/IP_20 \
+       /rede_claro/rede_claro-IPv4/IP_21 \
+       /rede_claro/rede_claro-IPv4/IP_22 \
+       /rede_claro/rede_claro-IPv4/IP_23 \
+
+       
+ 
+## rede_claro
+
+++ rede_claro-IPv4
+menu = rede_claro (pings) (detalhado)
+title = rede_claro (pings) (detalhado)
+
+
++++ IP_1
+menu = 186.222.112.1
+title = IP 186.222.112.1
+host = 186.222.112.1
+
++++ IP_2
+menu = 189.7.160.100
+title = IP 189.7.160.100
+host = 189.7.160.100
+
++++ IP_3
+menu = 189.7.160.101
+title = IP 189.7.160.101
+host = 189.7.160.101
+
++++ IP_4
+menu = 200.213.43.137
+title = IP 200.213.43.137
+host = 200.213.43.137
+
++++ IP_6
+menu = 200.246.248.230
+title = IP 200.246.248.230
+host = 200.246.248.230
+
++++ IP_7
+menu = spd13.claro.com.br
+title = spd13.claro.com.br
+host = spd13.claro.com.br
+
++++ IP_8
+menu = spd12.claro.com.br
+title = spd12.claro.com.br
+host = spd12.claro.com.br
+
++++ IP_9
+menu = 181.213.132.2
+title = IP 181.213.132.2 (DNS)
+host = 181.213.132.2
+
++++ IP_10
+menu = 181.213.132.3
+title = IP 181.213.132.3 (DNS)
+host = 181.213.132.3
+
++++ IP_11
+menu = spd11.claro.com.br
+title = spd11.claro.com.br
+host = spd11.claro.com.br
+
++++ IP_12
+menu = spd8.claro.com.br
+title = spd8.claro.com.br
+host = spd8.claro.com.br
+
++++ IP_13
+menu = spd58.claro.com.br
+title = spd58.claro.com.br
+host = spd58.claro.com.br
+
++++ IP_14
+menu = spd4.claro.com.br
+title = spd4.claro.com.br
+host = spd4.claro.com.br
+
++++ IP_15
+menu = spd10.claro.com.br
+title = spd10.claro.com.br
+host = spd10.claro.com.br
+
++++ IP_16
+menu = spd3.claro.com.br
+title = spd3.claro.com.br
+host = spd3.claro.com.br
+
++++ IP_17
+menu = spd39.claro.com.br
+title = spd39.claro.com.br
+host = spd39.claro.com.br
+
++++ IP_18
+menu = spd29.claro.com.br
+title = spd29.claro.com.br
+host = spd29.claro.com.br
+
++++ IP_19
+menu = spd1.claro.com.br
+title = spd1.claro.com.br
+host = spd1.claro.com.br
+
++++ IP_20
+menu = spd2.claro.com.br
+title = spd2.claro.com.br
+host = spd2.claro.com.br
+
++++ IP_21
+menu = spd5.claro.com.br
+title = spd5.claro.com.br
+host = spd5.claro.com.br
+
++++ IP_22
+menu = 177.35.80.1
+title = gateway claro 177.35.80.1
+host = 177.35.80.1
+
++++ IP_23
+menu = 189.7.164.1
+title = gateway claro 189.7.164.1
+host = 189.7.164.1
+

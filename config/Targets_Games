@@ -1,0 +1,86 @@
+#
+## Games
+# Cortesia Patrick Brandao
+# http://www.patrickbrandao.com/
+ 
++ GAMES
+menu = [Fping] Games
+title = GAMES - Game servers - IPv4. Executa o comando ping para os IPs abaixo:
+
+++ games_IPs
+menu = Todos games (compilado)
+title = Todos games (compilado)
+host = /GAMES/GAMES_IPv4/PUBG-3 \
+       /GAMES/GAMES_IPv4/GAMERSCLUB \
+       /GAMES/GAMES_IPv4/STEAM \
+	/GAMES/GAMES_IPv4/FALLGUYS \
+       /GAMES/GAMES_IPv4/EPIC-1 \
+       /GAMES/GAMES_IPv4/EPIC-2 \
+       /GAMES/GAMES_IPv4/EPIC-3 \
+       /GAMES/GAMES_IPv4/EPIC-4 \
+       
+
+++ GAMES_IPv4
+menu = Todos games (detalhado)
+title = Todos games (detalhado)
+
+
++++ GAME01
+menu = CSGO-1
+title = CSGO-1 - 205.185.194.51
+host = 205.185.194.51
+
++++ GAME02
+menu = CSGO-2
+title = CSGO-2 - 205.185.194.35
+host = 205.185.194.35
+
++++ GAME03
+menu = CSGO-3
+title = CSGO-3 - 205.185.194.36
+host = 205.185.194.36
+
++++ FREE-FIRE-1
+menu = FREE-FIRE-1
+title = FREE-FIRE-1 - 143.92.126.71
+host = 143.92.126.71
+ 
++++ PUBG-3
+menu = PUBG
+title = PUBG - 177.71.255.255
+host = 177.71.255.255
+ 
++++ GAMERSCLUB
+menu = GAMERSCLUB
+title = GAMERSCLUB  - gamersclub.com.br
+host = gamersclub.com.br
+ 
++++ STEAM
+menu = STEAM
+title = STEAM  - 205.185.194.51
+host = 205.185.194.51
+
++++ FALLGUYS
+menu = FALLGUYS
+title = FALLGUYS  - 45.134.141.239
+host = 45.134.141.239
+
++++ EPIC-1
+menu = epic-br
+title = qosping-aws-sa-east-1.ol.epicgames.com
+host = qosping-aws-sa-east-1.ol.epicgames.com
+
++++ EPIC-2
+menu = epic-na-west
+title = qosping-aws-us-west-1.ol.epicgames.com
+host = qosping-aws-us-west-1.ol.epicgames.com
+
++++ EPIC-3
+menu = epic-na-east
+title = qosping-aws-us-east-1.ol.epicgames.com
+host = qosping-aws-us-east-1.ol.epicgames.com
+
++++ EPIC-4
+menu = epic-europa
+title = qosping-aws-eu-west-3.ol.epicgames.com
+host = qosping-aws-eu-west-3.ol.epicgames.com

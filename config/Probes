@@ -1,0 +1,28 @@
+*** Probes ***
+
++ FPing
+binary = /usr/sbin/fping
+pings = 20
+protocol = 4
+step = 300
+
++ FPing6
+binary = /usr/sbin/fping
+protocol = 6
+
++ DNS
+binary = /usr/bin/dig
+lookup = google.com.br
+pings = 5
+step = 300
+
++ Curl
+binary = /usr/bin/curl
+pings = 5
+step = 300
+insecure_ssl = 1
+urlformat = https://%host%/
+
++ TraceroutePing
+binary = /usr/bin/traceroute 
+step = 300

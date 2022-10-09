@@ -1,0 +1,143 @@
+#
+## Games
+# Cortesia Patrick Brandao
+# http://www.patrickbrandao.com/
+ 
++ GAMES
+menu = GAMES-IPv4
+title = GAMES - Game servers - IPv4
+ 
+++ CROSS-FIRE-1
+menu = CROSS-FIRE-1
+title = CROSS-FIRE-1 - 198.49.89.42
+host = 198.49.89.42
+ 
+++ CROSS-FIRE-2
+menu = CROSS-FIRE-2
+title = CROSS-FIRE-2 - 198.49.89.19
+host = 198.49.89.19
+ 
+++ FREE-FIRE-1
+menu = FREE-FIRE-1
+title = FREE-FIRE-1 - 143.92.126.71
+host = 143.92.126.71
+ 
+++ FREE-FIRE-2
+menu = FREE-FIRE-2
+title = FREE-FIRE-2 - 143.92.126.133
+host = 143.92.126.133
+ 
+++ FREE-FIRE-3
+menu = FREE-FIRE-3
+title = FREE-FIRE-3 - 128.14.221.18
+host = 128.14.221.18
+ 
+++ FREE-FIRE-4
+menu = FREE-FIRE-4
+title = FREE-FIRE-4 - 143.92.125.169
+host = 143.92.125.169
+ 
+++ FREE-FIRE-5
+menu = FREE-FIRE-5
+title = FREE-FIRE-5 - 143.92.126.164
+host = 143.92.126.164
+ 
+++ FREE-FIRE-6
+menu = FREE-FIRE-6
+title = FREE-FIRE-6 - 169.57.197.82
+host = 169.57.197.82
+ 
+++ FREE-FIRE-7
+menu = FREE-FIRE-7
+title = FREE-FIRE-7 - 143.92.126.145
+host = 143.92.126.145
+ 
+++ FREEFIRE-8
+menu = FREEFIRE-8
+title = FREEFIRE-8  - 169.57.181.198
+host = 169.57.181.198
+ 
+++ FREEFIRE-9
+menu = FREEFIRE-9
+title = FREEFIRE-9  - 169.57.197.42
+host = 169.57.197.42
+ 
+++ FREEFIRE-10
+menu = FREEFIRE-10
+title = FREEFIRE-10  - 169.57.197.161
+host = 169.57.197.161
+ 
+++ FREEFIRE-11
+menu = FREEFIRE-11
+title = FREEFIRE-11  - 104.124.97.8
+host = 104.124.97.8
+ 
+++ FREEFIRE-12
+menu = FREEFIRE-12
+title = FREEFIRE-12  - 104.124.97.33
+host = 104.124.97.33
+ 
+++ FREEFIRE-13
+menu = FREEFIRE-13
+title = FREEFIRE-13  - 169.57.197.100
+host = 169.57.197.100
+ 
+++ PUBG-1
+menu = PUBG-1
+title = PUBG-1 - 49.51.136.156
+host = 49.51.136.156
+ 
+++ PUBG-2
+menu = PUBG-2
+title = PUBG-2 - 203.205.179.145
+host = 203.205.179.145
+ 
+++ PUBG-3
+menu = PUBG-3
+title = PUBG-3 - 52.94.7.70
+host = 52.94.7.70
+ 
+++ CALLOFDUTY-1
+menu = CALLOFDUTY-1
+title = CALLOFDUTY-1  - 209.197.3.24
+host = 209.197.3.24
+ 
+++ CALLOFDUTY-2
+menu = CALLOFDUTY-2
+title = CALLOFDUTY-2  - 23.42.246.119
+host = 23.42.246.119
+ 
+++ CALLOFDUTY-3
+menu = CALLOFDUTY-3
+title = CALLOFDUTY-3  - 157.240.216.14
+host = 157.240.216.14
+ 
+++ CALLOFDUTY-4
+menu = CALLOFDUTY-4
+title = CALLOFDUTY-4  - 92.122.173.141
+host = 92.122.173.141
+ 
+++ GAMERSCLUB-1
+menu = GAMERSCLUB-1
+title = GAMERSCLUB-1  - teste-1.gamersclub.com.br
+host = teste-1.gamersclub.com.br
+ 
+++ GAMERSCLUB-2
+menu = GAMERSCLUB-2
+title = GAMERSCLUB-2  - teste-2.gamersclub.com.br
+host = teste-2.gamersclub.com.br
+ 
+++ GARENA-1
+menu = GARENA-1
+title = GARENA-1  - 143.92.125.203
+host = 143.92.125.203
+ 
+++ GARENA-2
+menu = GARENA-2
+title = GARENA-2  - 143.92.126.19
+host = 143.92.126.19
+ 
+++ STEAM-SP1
+menu = STEAM-SP1
+title = STEAM-SP1  - 209.197.25.1
+host = 209.197.25.1

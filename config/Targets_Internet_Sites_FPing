@@ -1,0 +1,91 @@
+#
+## Internet Sites-FPing
+#
++ InternetSites
+# probe = FPing6
+menu = [FPing] Sites
+title = Sites da internet. Executa o comando ping para os domínios abaixo:
+
+++ Sites
+menu = Todos sites (compilado)
+title = Todos sites (compilado)
+host = /InternetSites/InternetSites-IPv4/GoogleBR \
+       /InternetSites/InternetSites-IPv4/TwitterBR \
+       /InternetSites/InternetSites-IPv4/G1 \
+       /InternetSites/InternetSites-IPv4/terra \
+       /InternetSites/InternetSites-IPv4/nytimes \
+       /InternetSites/InternetSites-IPv4/meo \
+       /InternetSites/InternetSites-IPv4/cloudflare \
+       /InternetSites/InternetSites-IPv4/uol \
+       /InternetSites/InternetSites-IPv4/yahoo \
+       /InternetSites/InternetSites-IPv4/facebook \
+       /InternetSites/InternetSites-IPv4/miwifi \
+       /InternetSites/InternetSites-IPv4/twitch \
+       
+       
+ 
+## InternetSites
+ 
+++ InternetSites-IPv4
+menu = Todos sites (detalhado)
+title = Todos sites (detalhado)
+
++++ GoogleBR
+menu = google.com.br
+title = google.com.br
+host = google.com.br
+
++++ TwitterBR
+menu = twitter.com
+title = twitter.com
+host = twitter.com
+
++++ G1
+menu = g1.com.br
+title = g1.com.br
+host = g1.com.br
+
++++ terra
+menu = terra.com.br
+title = terra.com.br
+host = terra.com.br
+
++++ nytimes
+menu = nytimes.com
+title = nytimes.com
+host = nytimes.com
+
++++ meo
+menu = meo.pt
+title = meo.pt
+host = meo.pt
+
++++ cloudflare 
+menu = cloudflare.com
+title = cloudflare.com
+host = cloudflare.com
+
++++ uol
+menu = uol.com.br
+title = uol.com.br
+host = uol.com.br
+
++++ yahoo
+menu = br.yahoo.com
+title = br.yahoo.com
+host = br.yahoo.com
+
++++ facebook
+menu = facebook.com
+title = facebook.com
+host = facebook.com
+
++++ miwifi
+menu = miwifi
+title = api.miwifi.com
+host = api.miwifi.com
+
++++ twitch
+menu = twitch.tv
+title = twitch.tv
+host = twitch.tv

@@ -1,0 +1,31 @@
+#
+## Outros IPs 
+#
+
+
++ IPs_outros2
+menu = TraceroutePing
+title = TraceroutePing
+probe = TraceroutePing 
+
+++ google
+menu = 200.17.95.254
+title = google 8.8.8.8
+host = 200.17.95.254
+desthost = 8.8.8.8 # mandatory
+maxttl = 15
+minttl = 5
+pings = 5
+wait = 3
+
+++SpectraExtremeIXInterface
+probe = TraceroutePing
+menu = Spectra via Extreme IX
+title = Spectra via Extreme IX
+host = 200.17.95.254
+desthost = 180.151.151.151
+maxttl = 15
+minttl = 5
+pings = 5
+wait = 3
+
