@@ -87,17 +87,17 @@ title = GigaDNS_2 189.38.95.96
 host = 189.38.95.96
 
 +++ nextdns
-menu = nextdns
+menu = Nextdns
 title = dns.nextdns.io anycast
 host = dns.nextdns.io
 
 +++ Italnet_1
-menu = Italnet_1
+menu = Italnet 1
 title = 201.7.225.31
 host = 201.7.225.31
 
 +++ Italnet_2
-menu = Italnet_2
+menu = Italnet 2
 title = 201.7.225.32
 host = 201.7.225.32
 

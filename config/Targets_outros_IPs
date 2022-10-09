@@ -57,38 +57,38 @@ title = Viasul - speedtest.viasul.net.br
 host = speedtest.viasul.net.br
  
 +++ rj-ix
-menu = rj-ix
+menu = RJ-IX
 title = RJ | rj-ix-p1-ipv4.simet.nic.br
 host = rj-ix-p1-ipv4.simet.nic.br
 
 +++ rs-ix
-menu = rs-ix
+menu = RS-IX
 title = RS | rs-ix-p1-ipv4.simet.nic.br
 host = rs-ix-p1-ipv4.simet.nic.br
 
 
 +++ edgeuno_poa
-menu = edgeuno_poa
+menu = EDGEUNO_POA
 title = spt-poa1.edgeuno.com | Porto Alegre
 host = spt-poa1.edgeuno.com
 
 +++ edgeuno_for1
-menu = edgeuno_fortaleza
+menu = EDGEUNO_FORTALEZA
 title = spt-for1.edgeuno.com | Fortaleza
 host = spt-for1.edgeuno.com
 
 +++ edgeuno_eze1
-menu = edgeuno_eze
+menu = EDGEUNO_EZE1
 title = spt-eze1.edgeuno.com | Buenos Aires
 host = spt-eze1.edgeuno.com
 
 +++ edgeuno_sao1
-menu = edgeuno_sao1
+menu = EDGEUNO_SAO1
 title = spt-sao1.edgeuno.com | São Paulo
 host = spt-sao1.edgeuno.com
 
 +++ edgeuno_mia
-menu = edgeuno_miami
+menu = EDGEUNO_MIA
 title = spt-mia.edgeuno.com | Miami
 host = spt-mia.edgeuno.com
 

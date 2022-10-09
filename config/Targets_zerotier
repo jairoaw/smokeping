@@ -46,11 +46,11 @@ title = mir3g - 192.168.251.2
 host = 192.168.251.2
  
 +++ oc1
-menu = oc1.homelabjaw.cf
+menu = oc1
 title = oc1.homelabjaw.cf - 192.168.251.11
 host = 192.168.251.11
 
 +++ oc2
-menu = oc2.homelabjaw.cf
+menu = oc2
 title = oc2.homelabjaw.cf - 192.168.251.12
 host = 192.168.251.12

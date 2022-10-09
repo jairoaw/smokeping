@@ -21,7 +21,6 @@ host = /ANYCAST/ANYCAST-IPv4/IP_1 \
        /ANYCAST/ANYCAST-IPv4/IP_9 \
        /ANYCAST/ANYCAST-IPv4/IP_10 \
        /ANYCAST/ANYCAST-IPv4/IP_11 \
-       /ANYCAST/ANYCAST-IPv4/IP_12 \
        /ANYCAST/ANYCAST-IPv4/IP_13 \
        /ANYCAST/ANYCAST-IPv4/IP_14 \
        /ANYCAST/ANYCAST-IPv4/IP_15 \
@@ -81,22 +80,18 @@ title =  Huawei | feitsui-gru1.obs-website.sa-brazil-1.myhuaweicloud.com
 host = feitsui-gru1.obs-website.sa-brazil-1.myhuaweicloud.com
 
 +++ IP_10
-menu =  cdnsun1.r.worldssl.net (CDNSun)
+menu =  CDNSun
 title =  cdnsun1.r.worldssl.net (CDNSun)
 host = cdnsun1.r.worldssl.net
 
 +++ IP_11
-menu =  keycdn.cloudharmony.net (KeyCDN)
+menu =  KeyCDN
 title =  keycdn.cloudharmony.net (KeyCDN)
 host = keycdn.cloudharmony.net
 
-+++ IP_12
-menu =  cdnsun1.r.worldssl.net
-title =  cdnsun1.r.worldssl.net
-host = cdnsun1.r.worldssl.net
 
 +++ IP_13
-menu =  google.com (Google)
+menu =  Google
 title =  google.com (Google)
 host = google.com
 
@@ -111,17 +106,17 @@ title =  ms.feitsui.com (CDN Microsoft)
 host = ms.feitsui.com
 
 +++ IP_16
-menu =  facebook (Facebook)
+menu =  Facebook
 title =  facebook.com (Facebook)
 host = facebook.com
 
 +++ IP_17
-menu =  www.verizondigitalmedia.com (EdgeCast)
+menu =  EdgeCast
 title =  www.verizondigitalmedia.com (EdgeCast)
 host = www.verizondigitalmedia.com
 
 +++ IP_19
-menu =  Alibaba Intl
+menu =  Alibaba
 title =  Alibaba Intl CDN| tb.cloudping.cloud
 host = tb.cloudping.cloud
 
@@ -131,16 +126,16 @@ title =  objectstorage.sa-saopaulo-1.oraclecloud.com (Oracle)
 host = objectstorage.sa-saopaulo-1.oraclecloud.com
 
 +++ IP_21
-menu =  www.gocache.com.br (GoCache)
+menu =  GoCache
 title =  www.gocache.com.br (GoCache)
 host = www.gocache.com.br
 
 +++ IP_22
 menu =  Akamai
-title =  akm.feitsui.com Akamai
+title =  akm.feitsui.com (Akamai)
 host = akm.feitsui.com
 
 +++ IP_24
-menu =  www.highwinds.com (HighWinds)
+menu =  HighWinds
 title =  www.highwinds.com (HighWinds)
 host = www.highwinds.com

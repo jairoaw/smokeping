@@ -66,21 +66,21 @@ title = FALLGUYS  - 45.134.141.239
 host = 45.134.141.239
 
 +++ EPIC-1
-menu = epic-br
+menu = EPIC-BR
 title = qosping-aws-sa-east-1.ol.epicgames.com
 host = qosping-aws-sa-east-1.ol.epicgames.com
 
 +++ EPIC-2
-menu = epic-na-west
+menu = EPIC-US-WEST
 title = qosping-aws-us-west-1.ol.epicgames.com
 host = qosping-aws-us-west-1.ol.epicgames.com
 
 +++ EPIC-3
-menu = epic-na-east
+menu = EPIC-US-EAST
 title = qosping-aws-us-east-1.ol.epicgames.com
 host = qosping-aws-us-east-1.ol.epicgames.com
 
 +++ EPIC-4
-menu = epic-europa
+menu = EPIC-EU-WEST
 title = qosping-aws-eu-west-3.ol.epicgames.com
 host = qosping-aws-eu-west-3.ol.epicgames.com

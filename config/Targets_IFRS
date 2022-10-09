@@ -14,6 +14,19 @@ host = /IFRS/IFRS-sistemas/IFRS-SIG \
        /IFRS/IFRS-sistemas/IFRS-DadosAbertos \
        /IFRS/IFRS-sistemas/IFRS-Biblioteca \
        /IFRS/IFRS-sistemas/IFRS-Moodle \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_bento \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_canoas \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_caxias \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_erechim \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_farroupilha \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_feliz \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_ibiruba \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_osorio \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_poa \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_restinga \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_riogrande \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_sertao \
+       /IFRS/IFRS-sistemas/IFRS-Moodle_vacaria \
        /IFRS/IFRS-sistemas/IFRS-portal \
               
         
@@ -37,22 +50,101 @@ host = dados.ifrs.edu.br
 urlformat = https://dados.ifrs.edu.br
 
 +++ IFRS-Biblioteca
-menu = IFRS-Biblioteca
+menu = biblioteca.ifrs.edu.br
 title = Latência HTTP para biblioteca.ifrs.edu.br (nuvem)
 host = biblioteca.ifrs.edu.br
 urlformat = https://biblioteca.ifrs.edu.br
 
 +++ IFRS-Moodle
-menu = IFRS-Moodle
+menu = moodle.ifrs.edu.br
 title = Latência HTTP para moodle.ifrs.edu.br
 host = moodle.ifrs.edu.br
 urlformat = https://moodle.ifrs.edu.br
 
 +++ IFRS-portal
-menu = IFRS-portal
+menu = ifrs.edu.br
 title = Latência HTTP para ifrs.edu.br
 host = ifrs.edu.br
 urlformat = https://ifrs.edu.br
+
++++ IFRS-Moodle_bento
+menu = moodle.bento.ifrs.edu.br
+title = Latência HTTP para moodle.bento.ifrs.edu.br
+host = moodle.bento.ifrs.edu.br
+urlformat = https://moodle.bento.ifrs.edu.br
+
++++ IFRS-Moodle_canoas
+menu = moodle.canoas.ifrs.edu.br
+title = Latência HTTP para moodle.canoas.ifrs.edu.br
+host = moodle.canoas.ifrs.edu.br
+urlformat = https://moodle.canoas.ifrs.edu.br
+
++++ IFRS-Moodle_caxias
+menu = moodle.caxias.ifrs.edu.br
+title = Latência HTTP para moodle.caxias.ifrs.edu.br
+host = moodle.caxias.ifrs.edu.br
+urlformat = https://moodle.caxias.ifrs.edu.br
+
++++ IFRS-Moodle_erechim
+menu = moodle.erechim.ifrs.edu.br
+title = Latência HTTP para moodle.erechim.ifrs.edu.br
+host = moodle.erechim.ifrs.edu.br
+urlformat = https://moodle.erechim.ifrs.edu.br
+
++++ IFRS-Moodle_farroupilha
+menu = moodle.farroupilha.ifrs.edu.br
+title = Latência HTTP para moodle.farroupilha.ifrs.edu.br
+host = moodle.farroupilha.ifrs.edu.br
+urlformat = https://moodle.farroupilha.ifrs.edu.br
+
++++ IFRS-Moodle_feliz
+menu = moodle.feliz.ifrs.edu.br
+title = Latência HTTP para moodle.feliz.ifrs.edu.br
+host = moodle.feliz.ifrs.edu.br
+urlformat = https://moodle.feliz.ifrs.edu.br
+
++++ IFRS-Moodle_ibiruba
+menu = moodle.ibiruba.ifrs.edu.br
+title = Latência HTTP para moodle.ibiruba.ifrs.edu.br
+host = moodle.ibiruba.ifrs.edu.br
+urlformat = https://moodle.ibiruba.ifrs.edu.br
+
++++ IFRS-Moodle_osorio
+menu = moodle.osorio.ifrs.edu.br
+title = Latência HTTP para moodle.osorio.ifrs.edu.br
+host = moodle.osorio.ifrs.edu.br
+urlformat = https://moodle.osorio.ifrs.edu.br
+
++++ IFRS-Moodle_poa
+menu = moodle.poa.ifrs.edu.br
+title = Latência HTTP para moodle.poa.ifrs.edu.br
+host = moodle.poa.ifrs.edu.br
+urlformat = https://moodle.poa.ifrs.edu.br
+
++++ IFRS-Moodle_restinga
+menu = moodle.restinga.ifrs.edu.br
+title = Latência HTTP para moodle.restinga.ifrs.edu.br
+host = moodle.restinga.ifrs.edu.br
+urlformat = https://moodle.restinga.ifrs.edu.br
+
++++ IFRS-Moodle_riogrande
+menu = moodle.riogrande.ifrs.edu.br
+title = Latência HTTP para moodle.riogrande.ifrs.edu.br
+host = moodle.riogrande.ifrs.edu.br
+urlformat = https://moodle.riogrande.ifrs.edu.br
+
++++ IFRS-Moodle_sertao
+menu = moodle.sertao.ifrs.edu.br
+title = Latência HTTP para moodle.sertao.ifrs.edu.br
+host = moodle.sertao.ifrs.edu.br
+urlformat = https://moodle.sertao.ifrs.edu.br
+
++++ IFRS-Moodle_vacaria
+menu = moodle.vacaria.ifrs.edu.br
+title = Latência HTTP para moodle.vacaria.ifrs.edu.br
+host = moodle.vacaria.ifrs.edu.br
+urlformat = https://moodle.vacaria.ifrs.edu.br
+
 
 
 + IFRS_PING
@@ -79,7 +171,7 @@ menu = IFRS-ping (detalhado)
 title = pings 
 
 +++ Router
-menu = router
+menu = gateway
 title = ping para Router gateway 200.17.95.254
 host = 200.17.95.254
 
@@ -94,17 +186,17 @@ title = eduroam - 200.17.92.22
 host = 200.17.92.22
  
 +++ DNS_A_IFRS-v4
-menu = DNS_A_IFRS-v4
+menu = nsa
 title = DNS_A_IFRS-v4 - 200.17.92.7
 host = 200.17.92.7
  
 +++ DNS_B_IFRS-v4
-menu = DNS_B_IFRS-v4
+menu = nsb
 title = DNS_B_IFRS-v4 - 200.17.92.5
 host = 200.17.92.5
  
 +++ NAS_01-IPv4
-menu = NAS_01-IPv4
+menu = nas01
 title = NAS_01-IPv4 - 200.17.92.121
 host = 200.17.92.121
  
@@ -114,6 +206,6 @@ title = VPN_93 - 200.17.93.9
 host = 200.17.93.9
  
 +++ nb2_ifrs
-menu = nb2_ifrs
+menu = nb2_poa
 title = nb2_ifrs - nb2.ifrs.edu.br
 host = nb2.ifrs.edu.br

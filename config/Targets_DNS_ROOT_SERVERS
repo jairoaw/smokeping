@@ -1,8 +1,7 @@
 #
 ## Roots Servers 
 #
- 
-+ DNS-Root-Servers
+ + DNS-Root-Servers
 probe = FPing
 menu = [Fping] DNS Root Servers
 title = Servidores de DNS Autoritativos Raiz. Executa o comando ping para os IPs abaixo:

@@ -11,8 +11,7 @@ title = rede_claro (pings). Executa o comando ping para os IPs abaixo:
 ++ DNSPings
 menu = rede_claro (pings) (compilado)
 title = rede_claro (pings).  (compilado)
-host = /rede_claro/rede_claro-IPv4/IP_1 \
-       /rede_claro/rede_claro-IPv4/IP_2 \
+host = /rede_claro/rede_claro-IPv4/IP_2 \
        /rede_claro/rede_claro-IPv4/IP_3 \
        /rede_claro/rede_claro-IPv4/IP_4 \
        /rede_claro/rede_claro-IPv4/IP_6 \
@@ -42,11 +41,6 @@ host = /rede_claro/rede_claro-IPv4/IP_1 \
 menu = rede_claro (pings) (detalhado)
 title = rede_claro (pings) (detalhado)
 
-
-+++ IP_1
-menu = 186.222.112.1
-title = IP 186.222.112.1
-host = 186.222.112.1
 
 +++ IP_2
 menu = 189.7.160.100

@@ -19,10 +19,11 @@ host = /InternetSites/InternetSites-IPv4/GoogleBR \
        /InternetSites/InternetSites-IPv4/uol \
        /InternetSites/InternetSites-IPv4/yahoo \
        /InternetSites/InternetSites-IPv4/facebook \
-       /InternetSites/InternetSites-IPv4/miwifi \
        /InternetSites/InternetSites-IPv4/twitch \
-       
-       
+       /InternetSites/InternetSites-IPv4/www.correo.com.uy \
+       /InternetSites/InternetSites-IPv4/www.correoargentino.com.ar \
+
+     
  
 ## InternetSites
  
@@ -80,12 +81,17 @@ menu = facebook.com
 title = facebook.com
 host = facebook.com
 
-+++ miwifi
-menu = miwifi
-title = api.miwifi.com
-host = api.miwifi.com
-
 +++ twitch
 menu = twitch.tv
 title = twitch.tv
 host = twitch.tv
+
++++ www.correo.com.uy
+menu = correo.com.uy
+title = www.correo.com.uy
+host = www.correo.com.uy
+
++++ www.correoargentino.com.ar
+menu = correoargentino.com.ar
+title = www.correoargentino.com.ar
+host = www.correoargentino.com.ar
