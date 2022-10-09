@@ -20,8 +20,8 @@ host = /InternetSites/InternetSites-IPv4/GoogleBR \
        /InternetSites/InternetSites-IPv4/yahoo \
        /InternetSites/InternetSites-IPv4/facebook \
        /InternetSites/InternetSites-IPv4/twitch \
-       /InternetSites/InternetSites-IPv4/www.correo.com.uy \
-       /InternetSites/InternetSites-IPv4/www.correoargentino.com.ar \
+       /InternetSites/InternetSites-IPv4/correouy \
+       /InternetSites/InternetSites-IPv4/correoargentino \
 
      
  
@@ -86,12 +86,12 @@ menu = twitch.tv
 title = twitch.tv
 host = twitch.tv
 
-+++ www.correo.com.uy
++++ correouy
 menu = correo.com.uy
 title = www.correo.com.uy
 host = www.correo.com.uy
 
-+++ www.correoargentino.com.ar
++++ correoargentino
 menu = correoargentino.com.ar
 title = www.correoargentino.com.ar
 host = www.correoargentino.com.ar
