@@ -22,6 +22,13 @@ host = /InternetSites/InternetSites-IPv4/GoogleBR \
        /InternetSites/InternetSites-IPv4/twitch \
        /InternetSites/InternetSites-IPv4/correouy \
        /InternetSites/InternetSites-IPv4/correoargentino \
+       /InternetSites/InternetSites-IPv4/pfsense \
+       /InternetSites/InternetSites-IPv4/openwrt \
+       /InternetSites/InternetSites-IPv4/g1 \
+       /InternetSites/InternetSites-IPv4/claro \
+       /InternetSites/InternetSites-IPv4/oi \
+       /InternetSites/InternetSites-IPv4/tim \
+       
 
      
  
@@ -30,6 +37,37 @@ host = /InternetSites/InternetSites-IPv4/GoogleBR \
 ++ InternetSites-IPv4
 menu = Todos sites (detalhado)
 title = Todos sites (detalhado)
+
+
++++ claro
+menu = claro.com.br
+title = www.claro.com.br
+host = www.claro.com.br
+
++++ oi
+menu = oi.com.br
+title = www.oi.com.br
+host = www.oi.com.br
+
++++ tim
+menu = tim.com.br
+title = www.tim.com.br
+host = www.tim.com.br
+
++++ pfsense
+menu = pfsense.org
+title = www.pfsense.org
+host = www.pfsense.org
+
++++ openwrt
+menu = openwrt.org
+title = openwrt.org
+host = openwrt.org
+
++++ g1
+menu = g1.globo.com
+title = g1.globo.com
+host = g1.globo.com
 
 +++ GoogleBR
 menu = google.com.br
