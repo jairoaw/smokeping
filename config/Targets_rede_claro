@@ -11,7 +11,8 @@ title = rede_claro (pings). Executa o comando ping para os IPs abaixo:
 ++ DNSPings
 menu = rede_claro (pings) (compilado)
 title = rede_claro (pings).  (compilado)
-host = /rede_claro/rede_claro-IPv4/IP_2 \
+host = /rede_claro/rede_claro-IPv4/IP_1 \
+       /rede_claro/rede_claro-IPv4/IP_2 \
        /rede_claro/rede_claro-IPv4/IP_3 \
        /rede_claro/rede_claro-IPv4/IP_4 \
        /rede_claro/rede_claro-IPv4/IP_6 \
@@ -41,6 +42,10 @@ host = /rede_claro/rede_claro-IPv4/IP_2 \
 menu = rede_claro (pings) (detalhado)
 title = rede_claro (pings) (detalhado)
 
++++ IP_1
+menu = 200.230.251.130
+title = ebt-B1224-intl04.mianap.embratel.net.br
+host = ebt-B1224-intl04.mianap.embratel.net.br
 
 +++ IP_2
 menu = 189.7.160.100
