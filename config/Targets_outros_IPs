@@ -22,6 +22,7 @@ host = /IPs_outros/IPs_outros_IPv4/NETFAR \
        /IPs_outros/IPs_outros_IPv4/edgeuno_sao1 \
        /IPs_outros/IPs_outros_IPv4/edgeuno_eze1 \
        /IPs_outros/IPs_outros_IPv4/edgeuno_mia \
+       /IPs_outros/IPs_outros_IPv4/bitcom \
        
        
  ## IPv4
@@ -66,7 +67,6 @@ menu = RS-IX
 title = RS | rs-ix-p1-ipv4.simet.nic.br
 host = rs-ix-p1-ipv4.simet.nic.br
 
-
 +++ edgeuno_poa
 menu = EDGEUNO_POA
 title = spt-poa1.edgeuno.com | Porto Alegre
@@ -91,4 +91,9 @@ host = spt-sao1.edgeuno.com
 menu = EDGEUNO_MIA
 title = spt-mia.edgeuno.com | Miami
 host = spt-mia.edgeuno.com
+
++++ bitcom
+menu = BITCOM
+title = 187.63.175.198
+host = 187.63.175.198
 
