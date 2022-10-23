@@ -18,12 +18,19 @@ host = /GAMES/GAMES_IPv4/PUBG-3 \
        /GAMES/GAMES_IPv4/EPIC-2 \
        /GAMES/GAMES_IPv4/EPIC-3 \
        /GAMES/GAMES_IPv4/EPIC-4 \
+       /GAMES/GAMES_IPv4/i3d \
        
 
 ++ GAMES_IPv4
 menu = Todos games (detalhado)
 title = Todos games (detalhado)
 
+
+
++++ i3d
+menu = I3D
+title = i3d.net - 66.22.202.69
+host = 66.22.202.69
 
 +++ GAME01
 menu = CSGO-1
@@ -52,8 +59,8 @@ host = 177.71.255.255
  
 +++ GAMERSCLUB
 menu = GAMERSCLUB
-title = GAMERSCLUB  - gamersclub.com.br
-host = gamersclub.com.br
+title = GAMERSCLUB  - 45.164.124.102
+host = 45.164.124.102
  
 +++ STEAM
 menu = STEAM
