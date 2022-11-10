@@ -34,8 +34,8 @@ title = IPs de servidores e provedores IPv4. Executa um ping para os IPs abaixo.
 
 +++ NETFAR
 menu = NETFAR
-title = NETFAR - 138.36.82.142
-host = 138.36.82.142
+title = NETFAR - 138.36.82.4
+host = 138.36.82.4
  
 +++ FBNETVA
 menu = FBNET-VA
